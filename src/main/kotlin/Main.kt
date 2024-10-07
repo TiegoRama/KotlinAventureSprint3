@@ -83,7 +83,6 @@ val projectionAcide = Sort("Sort de projection acide", { caster, cible ->
 
 //instanciation des types d'armes
 val typeEpeeLongue = TypeArme("Epee longue", 1, 8, 2, 20)
-
 val typeEpeeCourte = TypeArme("Epee courte", 1, 6, 2, 18)
 val typeDague = TypeArme("Epee courte", 1, 4, 3, 15)
 val typeLance = TypeArme("Lance", 1, 6, 3, 18)
