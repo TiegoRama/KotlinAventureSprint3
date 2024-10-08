@@ -5,22 +5,21 @@ import model.jeu.TirageDes
 import model.item.*
 import model.personnage.Personnage
 import dao.QualiteDAO
-import generateur.GenerateurArmes
-import generateur.GenerateurArmures
-import generateur.GenerateurQualites
-import generateur.GenerateurTypeArme
-import generateur.GenerateurTypeArmures
+import generateur.*
+
 //DEMO MISSION 1
 val generateurQualites = GenerateurQualites("assets/qualites.csv")
 val qualites = generateurQualites.generer()
 val generateurTypeArmure = GenerateurTypeArmures("assets/typeArmures.csv")
-val generateurArmures = GenerateurQualites("assets/armures.csv")
+val generateurArmures = GenerateurArmures("assets/armures.csv")
 val typearmure = generateurTypeArmure.generer()
 val armures = generateurArmures.generer()
 val generateurTypeArme = GenerateurTypeArme("assets/typeArme.csv")
 val typeArmes = generateurTypeArme.generer()
 val generateurArmes = GenerateurArmes("assets/armes.csv")
 val armes = generateurArmes.generer()
+val generateurMonstres = GenerateurMonstres("assets/monstres.csv")
+val monstres = generateurMonstres.generer()
 
 
 //DEMO MISSION 2 :

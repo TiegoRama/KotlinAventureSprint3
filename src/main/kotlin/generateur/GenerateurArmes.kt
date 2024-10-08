@@ -21,7 +21,7 @@ class GenerateurArmes (val cheminfichierarme : String) {
         for (i in 1..listeObjCSV.lastIndex) {
             val ligneObjet = listeObjCSV[i].split(";")
             val cle = ligneObjet[0].lowercase()
-            val objet = Arme(nom = ligneObjet[0], description =  ligneObjet[1], type = typeArmes[ligneObjet[2]]!!, qualite = qualites[ligneObjet[3]]!!),
+            val objet = Arme(nom = ligneObjet[0], description =  ligneObjet[1], type = typeArmes[ligneObjet[2]]!!, qualite = qualites[ligneObjet[3]]!!)
             mapObjets[cle] = objet
         }
         return mapObjets

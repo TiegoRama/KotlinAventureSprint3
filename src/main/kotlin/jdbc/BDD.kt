@@ -12,9 +12,9 @@ import java.sql.*
  */
 class BDD(
 
-    var url: String = "jdbc:mysql://localhost:3306/db_kotlinAventure",
-    var user: String = "root",
-    var password: String = "",
+    var url: String = "jdbc:mysql://localhost:3306/db_kotlinAventure_tramamonji",
+    var user: String = "tramamonji",
+    var password: String = "Revkyn03",
 ) {
     var connectionBDD: Connection? = null
 
